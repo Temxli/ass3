@@ -1,0 +1,47 @@
+.team-logo {
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.match-item {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.team-container {
+	display: flex;
+	align-items: center;
+}
+
+.team-left,
+.team-right {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.team-score {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.divider {
+	border-left: 2px solid #ccc;
+	height: 50px;
+	margin: 0 20px;
+}
+
+.team-name {
+	font-size: 18px;
+}
+
+.score {
+	font-size: 16px;
+}

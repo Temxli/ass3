@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-success text-white p-5 text-center">
+        <h1>Welcome to Our Football Website</h1>
+        <p class="lead">Get the latest updates on football matches, teams, and players.</p>
+    </header>
+
+    <nav class="bg-secondary py-3">
+        <div class="container col-md-8">
+            <div class=" text-start fs-5">
+                <a href="#" class="text-white mx-2">Matches</a>
+                <a href="teams.html" class="text-white mx-2">Teams</a>
+                <a href="GoogleMaps.html" class="text-white mx-2">Our Location</a>
+                <div class=" text-end" style="display:inline; float:right;">
+                    <a href="authorization.html" class="text-white mx-2">Sign in</a>
+                    <a href="authorization.html" class="text-white mx-2">Log in</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <h2 class="mb-4 text-center">Recent Premier League Matches</h2>
+                <div id="recentMatches"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
